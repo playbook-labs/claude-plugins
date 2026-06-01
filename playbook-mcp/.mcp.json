@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "playbook": {
+      "type": "http",
+      "url": "https://mcp.playbook.com"
+    }
+  }
+}

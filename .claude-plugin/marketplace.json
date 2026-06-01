@@ -1,0 +1,14 @@
+{
+  "name": "playbook",
+  "description": "Claude Code plugins for Playbook — connect Claude to your Playbook workspace.",
+  "owner": {
+    "name": "Playbook"
+  },
+  "plugins": [
+    {
+      "name": "playbook-mcp",
+      "source": "./playbook-mcp",
+      "description": "Connect Claude to your Playbook workspace — find, move, copy, tag, and organize assets and boards via natural language (hosted MCP server)"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "playbook": {
+    "playbook-creative": {
       "type": "http",
       "url": "https://mcp.playbook.com"
     }

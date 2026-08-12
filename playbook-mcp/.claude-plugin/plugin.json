@@ -1,5 +1,5 @@
 {
-  "name": "playbook-mcp",
+  "name": "playbook",
   "description": "Connect Claude to your Playbook workspace — find, move, copy, tag, and organize assets and boards via natural language.",
   "version": "0.1.0",
   "author": {

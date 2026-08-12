@@ -1,5 +1,5 @@
 {
-  "name": "playbook",
+  "name": "playbook-plugins",
   "description": "Claude Code plugins for Playbook — connect Claude to your Playbook workspace.",
   "owner": {
     "name": "Playbook"

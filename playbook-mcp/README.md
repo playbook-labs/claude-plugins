@@ -19,21 +19,22 @@ Asset and board operations including: `list_assets`, `search_assets`,
 ## Install
 
 ```
-/plugin marketplace add /path/to/playbook/.claude/playbook   # if not already added
-/plugin install playbook-mcp@playbook
+/plugin marketplace add playbook-labs/claude-plugins   # if not already added
+/plugin install playbook@playbook-plugins
 ```
 
 Or via CLI:
 
 ```
-claude plugin install playbook-mcp@playbook
+claude plugin marketplace add playbook-labs/claude-plugins
+claude plugin install playbook@playbook-plugins
 ```
 
 ## Authenticate
 
-After install, run `/mcp` and complete the Playbook OAuth flow for the
-`playbook` server. Tokens do not expire (revoke from your Playbook account
-settings).
+After install, run `/mcp`, pick the `playbook-creative` server, choose
+**Authenticate**, and complete the Playbook OAuth flow in the browser. Tokens do
+not expire (revoke from your Playbook account settings).
 
 ## Note for local development
 

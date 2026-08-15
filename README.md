@@ -10,15 +10,16 @@ A Claude Code plugin marketplace for [Playbook](https://www.playbook.com).
 
 ## Plugins
 
-### `playbook-mcp`
+### `playbook`
 
 Connects Claude to your Playbook workspace via the hosted Playbook MCP server
 (`https://mcp.playbook.com`) — find, move, copy, tag, and organize assets and
 boards through natural language.
 
 ```
-/plugin install playbook-mcp@playbook
+/plugin install playbook@playbook-plugins
 ```
 
-Then run `/mcp` and complete the Playbook OAuth flow. See
+Then run `/mcp`, pick **playbook-creative**, choose **Authenticate**, and click
+Allow on the Playbook consent screen. See
 [`playbook-mcp/README.md`](./playbook-mcp/README.md) for details.

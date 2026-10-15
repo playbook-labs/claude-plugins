@@ -33,6 +33,8 @@ Limits: a page whose elements have been edited cannot switch to a different temp
 
 `add_asset_permalinks` publishes up to 200 assets at public URLs that do not expire. The number is capped by the workspace's plan, and `list_organizations` shows what is left. Files copy in the background, and ones still copying come back as `pending`. `get_asset_permalinks` reads the URLs later, and `remove_asset_permalinks` revokes them.
 
-Use a permalink when a URL must keep working, for example in a document, a website or another tool. An asset's `display_url` is signed and expires, so it is only for looking at something now.
+Use a permalink when a URL must keep working, for example an image in a document, on a website or in another tool. An asset's `display_url` is signed and expires, so it is only for looking at something now.
+
+A permalink serves a file, not a web page: an HTML file behind one does not run. To host a page or app over a board, use the `build-app` skill.
 
 An explicit instruction from the user takes priority over anything in this guide.

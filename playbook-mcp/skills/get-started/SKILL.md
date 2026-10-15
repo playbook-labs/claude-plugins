@@ -21,6 +21,7 @@ Board and asset tokens belong to one workspace. Read them again from `list_board
 - Finding, tagging, moving or grouping assets: the `organize-assets` skill.
 - Adding files, notes, colours or a new version of a file: the `upload-files` skill.
 - Share links, published pages and permanent URLs: the `share-and-publish` skill.
+- A hosted web app over a board, such as a gallery or catalogue: the `build-app` skill.
 - Comments: `get_comments` and `create_comment`. People: `list_members`.
 - Anything about the API itself: `list_documentation` and `read_documentation`.
 
